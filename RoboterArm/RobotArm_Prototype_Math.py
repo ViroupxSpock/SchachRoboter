@@ -1,13 +1,6 @@
 #libraries
-#import gpiozero
 import math
 
-#Declaration of GPIO Pins
-"""
-ServoBase = gpiozero.AngularServo(12) #Servo motor in base
-ServoShoulder = gpiozero.AngularServo(16) #Alpha in calculations
-ServoElbow = gpiozero.AngularServo(18) #Beta in calculations
-ElectroMagnet = gpiozero.LED(24)"""
 #Robotparameters
 LenUpperArm = 14 #Length of upper arm
 LenUpperArmSquared = LenUpperArm*LenUpperArm #Squared for later convinience
